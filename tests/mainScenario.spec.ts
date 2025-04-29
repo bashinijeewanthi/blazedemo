@@ -25,4 +25,7 @@ test('purchase a Flight ticket', async({page}) =>{
      // Verify confirmation page navigation
    const Finalheader = await page.textContent('h1') 
    expect (Finalheader).toBe('Thank you for your purchase today!')
+
+   // window killing
+   
 })
